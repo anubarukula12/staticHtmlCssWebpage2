@@ -1,36 +1,76 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
 html {
   font-family: "Times New Roman", Times, serif;
 }
+.container {
+  width: 100%;
+  border: 1px solid black;
+}
 
-header {
-  background-color: rgba(50, 236, 33, 0.644);
-  width: 75em;
-  height: 4em;
+header,
+footer {
+  padding: 1rem;
+  color: rgba(21, 21, 226, 0.87);
+  background-color: rgb(0, 128, 0);
+  text-align: center;
+  clear: left;
+  width: inherit;
 }
-.sidebar {
-  width: 25vh;
-  background-color: rgba(128, 128, 128, 0.829);
-  position: absolute;
-  overflow: hidden;
+nav {
+
+  float: left;
+  width: 10%;
+  padding-bottom: 200px;
+  background-color: rgba(128, 128, 128, 0.842);
 }
-.sidebar a {
-  display: block;
-  color: #ffffff;
-  padding: 5px 20px;
+nav ul {
+  list-style-type: none;
+  padding: 25px;
+}
+nav ul a {
   text-decoration: none;
+  display: block;
+  padding: 5px;
+  font-size: 1em;
+}
+nav ul a:hover {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+section {
+  padding: 10px;
+  overflow: hidden;
   font-size: 1.3em;
 }
-.sidebar .title {
-  display: block;
-  font-size: 1.1em;
-  padding: 10px 20px;
-  justify-content: center;
+/* Responsive screens*/
+@media only screen and (max-width: 620px) {
+  nav,
+  section {
+    width: 100%;
+  }
 }
-footer{
-    background-color: rgba(50, 236, 33, 0.644);
-  width: 75em;
-  height: 4em; 
+
+details summary {
+  width: 50%;
+  background-color: rgba(128, 128, 128, 0.842);
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  color: rgba(21, 21, 226, 0.87);
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+details p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
 }
