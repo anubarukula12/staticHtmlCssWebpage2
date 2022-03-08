@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: rgba(50, 236, 33, 0.644);
+  width: 75em;
+  height: 4em;
+}
+.sidebar {
+  width: 25vh;
+  background-color: rgba(128, 128, 128, 0.829);
+  position: absolute;
+  overflow: hidden;
+}
+.sidebar a {
+  display: block;
+  color: #ffffff;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.sidebar .title {
+  display: block;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  justify-content: center;
+}
+footer{
+    background-color: rgba(50, 236, 33, 0.644);
+  width: 75em;
+  height: 4em; 
+}
