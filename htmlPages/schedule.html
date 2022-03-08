@@ -25,7 +25,41 @@
             </ul>
         </nav>
         <section>
-            <p>I am in schedule time html page</p>
+            <h1> Scheduling Form</h1>
+            <div class="sched-container">
+
+                <form action="">
+                    <label for="date">Date</label>
+                    <input id="date" type="date"><br>
+                    <label for="time">Time</label>
+                    <input id="time" type="time"><br>
+                    <label for="timezone">Timezone</label>
+                    <select name="timezone" class="time-zone">
+                        <option>
+                            (GMT -8:00) Pacific Time (US &amp; Canada)
+                        </option>
+                        <option value="-7">
+                            (GMT -7:00) Mountain Time (US &amp; Canada)
+                        </option>
+                        <option value="-6">
+                            (GMT -6:00) Central Time (US &amp; Canada),
+                            Mexico City
+                        </option>
+                        <option value="-5">
+                            (GMT -5:00) Eastern Time (US &amp; Canada),
+                            Bogota, Lima
+                        </option>
+
+                        <option value="5.5">
+                            (GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi
+                        </option>
+
+                    </select><br><br>
+                    <textarea placeholder="Enter Message" cols="50" rows="5"></textarea>
+
+                </form>
+
+            </div>
         </section>
         <footer>
             <p>Copyright © 2022 Anuradha Barukula</p>
