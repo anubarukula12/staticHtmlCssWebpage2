@@ -28,7 +28,7 @@
             <h1> Scheduling Form</h1>
             <div class="sched-container">
 
-                <form action="">
+                <form method="post" id="schedule" action="">
                     <label for="date">Date</label>
                     <input id="date" type="date"><br>
                     <label for="time">Time</label>
@@ -55,15 +55,14 @@
                         </option>
 
                     </select><br><br>
-                    <textarea placeholder="Enter Message" cols="50" rows="5"></textarea>
-
+                    <textarea placeholder="Enter Message" cols="50" rows="5"></textarea><br>
+                    <input type="submit" id="sub" value="Schedule">
                 </form>
 
             </div>
         </section>
         <footer>
             <p>Copyright © 2022 Anuradha Barukula</p>
-            </p>
         </footer>
     </div>
 </body>
